@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>J_Gaf</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/battleship.js"></script>
+</head>
+<body>
+<div>The Concept is simple; enter coordinates in letter(a-g) number(0-6) format e.g g4    The source is on my <a href="https://github.com/JeggerAgain/battleship.js" target="_blank">Github</a></div>
+<input type="text" id="userguess" name="userguess" />
+<input type="button" onclick="battleship.checkUsersGuess(document.getElementById('userguess').value)" value="Fire!"/>
+<div class="feedHeader">See Results Below</div>
+<div id="outputFeed"></div>
+</body>
+</html>
